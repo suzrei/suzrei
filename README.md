@@ -1,4 +1,5 @@
 ## Hi there 👋
+This is a final project for my Web Development Class at Saint Paul College. 
 
 <!--
 **suzrei/suzrei** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
