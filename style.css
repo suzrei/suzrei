@@ -1,0 +1,168 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import 
+url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+	font-family: "Sour Gummy" , sans-serif;
+	background-color: lightpurple;
+	margin: 0;
+}
+/*Home Hero Banner CSS*/
+
+.logo-image{
+	display: block;
+	margin-left: auto;
+	height: auto;
+	max-width: 325px;
+	float: left;
+}
+
+.home-hero h1{
+	font-family: 'Delius Unicase', cursive;
+	color: black;
+	font-size: 60px;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	padding: 50px 0;
+	margin: 0;
+}
+
+/* Home Headshot CSS*/
+.home-headshot-photo{
+	
+	max-width: 90%;
+	height: auto;
+	margin: 50px 0 10px 20px;
+}
+
+
+/* Website links except the nav */
+a:link{
+	color: #purple;
+}
+a:visited{
+	color: #purple;
+}
+a:hover{
+	color: deeppink;
+}
+a:active{
+	color: rebeccapurple;
+}
+header{
+	text-align: center;
+}
+
+/*Navigation*/
+nav{
+	background-color: #cc99ff;
+	border-top: 3px solid rebeccapurple;
+	border-bottom: 3px solid rebeccapurple;
+	padding: 5px;
+	max-width: auto;
+	max-height: 150px;
+}
+nav ul{
+	list-style-type: none;
+	text-align: right;
+	padding-top: 30px;
+	padding-right: 20px;
+	margin: 4px;
+}
+nav li{
+	display: auto;
+	padding: 5px;
+}
+nav a{
+	text-decoration: none;
+}
+nav a:link{
+	color: purple;
+}
+nav a:hover{
+	color: deeppink;
+}
+nav a:visited{
+	color: purple;
+}
+nav a:active{
+	color: darkblue;
+}
+
+/*Main */
+main{
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 10px;
+}
+/*Footer*/
+footer{
+	border-top: purple 3px solid;
+	text-align: center;
+	background-color:#cc99ff ;
+
+}
+.my-button:link{
+background-color: rebeccapurple;
+color: lightpurple;
+border-radius: 50px;
+border: 1px solid #111111;
+padding: 8px 15px;
+margin: 50px;
+}
+
+.my-button:hover{
+	background-color: lightpurple;
+	text-decoration: none;
+}
+/*css without a media query--applies to all sizes unless overridden*/
+ h1{
+ 	font-size: 4em;
+ }
+
+  /*Css for tablets*/
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 2em;
+	}
+}
+
+/*css for smartphones*/
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 2em;
+	}
+}
+
+/*Resume CSS*/
+
+.resume{
+	border: 1px solid #dddddd;
+	padding: 4px;
+	box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.51);
+
+}
+.resume-foot{
+	background-image: url(images/background.jpg);
+	background-size: cover;
+	color: white;}
+
+.resume-foot h1{
+	font-family: 'Delius Unicase', cursive;
+	color: black;
+	font-size: 20px;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	padding: 10px 0;
+	margin: 0;
+
+}
+/*Game CSS*/
+
+
+.game-background{
+	background-image: url(images/forest.jpg);
+	background-size: cover;
+}
